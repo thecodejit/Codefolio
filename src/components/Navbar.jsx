@@ -60,9 +60,9 @@ const Navbar = () => {
                 onClick={toggler}
               >
                 {Open ? (
-                  <RxCross1 className="m-1.5 size-5 visible sm:hidden" />
+                  <RxCross1 className="m-1.5 size-5 sm:hidden" />
                 ) : (
-                  <RiMenu5Fill className="m-1.5 size-5 visible sm:hidden" />
+                  <RiMenu5Fill className="m-1.5 size-5 sm:hidden" />
                 )}
               </button>
             </div>
