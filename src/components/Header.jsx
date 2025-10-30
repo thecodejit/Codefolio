@@ -1,49 +1,77 @@
-import React from "react";
 import logo from "../assets/images/logo.svg";
+import profile from "../assets/images/profile.jpg";
+import flag from "../assets/images/flag.jpg";
+import badge from "../assets/images/verified.png";
+
+import { IoCodeSlashOutline } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
+import { CiGlobe } from "react-icons/ci";
+import { BsGenderMale } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div className="w-[93.5%] sm:w-3xl mx-auto flex border border-gray-200">
-      <div className="">
-        <img
-          src={logo}
-          alt=""
-          className="inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[12px_12px] "
-        />
-        <p className="p-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Reprehenderit, voluptates distinctio temporibus eveniet, earum eum
-          libero cumque quo dignissimos, incidunt dolores. Unde animi quos natus
-          adipisci repellendus, deserunt consequuntur iste dolor veniam,
-          blanditiis commodi. Odit, ad vitae. Natus harum, ea minima similique
-          quod, eligendi in sed voluptatibus repellat magnam unde,
-          exercitationem at! Animi quam itaque ipsa quasi enim unde at
-          recusandae! Inventore voluptates voluptas officiis fugit expedita
-          explicabo maxime, dolorem quis at exercitationem. Earum odit molestiae
-          accusamus cumque iure. Earum magnam aliquam suscipit voluptatem
-          accusantium, corrupti aspernatur dolor repellendus adipisci, accusamus
-          voluptatum! Beatae, quam accusantium consequuntur nesciunt libero
-          dignissimos consectetur.
-        </p>
-        <h6 className="p-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sit
-          tenetur nesciunt quam a praesentium sequi dolore tempore blanditiis,
-          unde ipsum assumenda exercitationem fugiat illum, expedita beatae
-          eaque perspiciatis atque pariatur. Quam, doloremque quasi! Facere non,
-          incidunt deserunt ipsum unde quasi velit aspernatur voluptate, neque
-          accusantium a numquam, exercitationem nulla modi iure consectetur
-          animi. Ipsum eveniet iusto sunt nihil labore esse distinctio autem
-          temporibus numquam, dignissimos doloribus consequuntur possimus porro
-          neque error culpa, voluptas sint voluptatem molestiae saepe.
-          Perspiciatis vero neque, veniam nam aut id, ipsum, quisquam sint quae
-          in saepe modi maiores dolor provident voluptatibus eligendi assumenda
-          culpa cum!
-        </h6>
-        <img
-          src={logo}
-          alt=""
-          className="inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[12px_12px] "
-        />
+    <div className="w-[93.5%] sm:w-3xl mx-auto border border-gray-200">
+      <div className="bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[12px_12px]">
+        <img src={logo} alt="" className="size-75 sm:size-95 mx-auto" />
+      </div>
+
+      <div className="flex items-center border-y border-gray-200">
+        <div className="border-r border-gray-200 static">
+          <img
+            src={flag}
+            alt="I'm From India"
+            className="h-9 w-12 z-20 absolute"
+          />
+          <img
+            src={profile}
+            alt=""
+            className="w-35 sm:size-45 p-1 rounded-full z-10 border border-gray-300"
+          />
+        </div>
+        <div className="flex items-center">
+          <h1 className="text-2xl sm:text-3xl text-zinc-950 ml-2 sm:ml-5 mt-4 font-medium">
+            Soumyajit Dey{" "}
+          </h1>
+          <img src={badge} alt="" className=" mx-1.5 mt-5 sm:mt-6 h-4 w-4" />
+        </div>
+      </div>
+
+      <div>
+        <ul>
+          <li className="flex m-2 sm:m-3 items-center">
+            <IoCodeSlashOutline className="mx-2 sm:mx-3 my-1 size-6" />
+            <span className="font-semibold">Full Stack Developer</span>
+          </li>
+          <li className="flex m-2 sm:m-3 items-center">
+            <IoLocationOutline className="mx-2 sm:mx-3 my-1 size-6" />
+
+            <span className="font-semibold">
+              Chinsurah-Hooghly, West-Bengal, India
+            </span>
+          </li>
+          <li className="flex m-2 sm:m-3 items-center">
+            <IoMailOutline className="mx-2 sm:mx-3 mt-1 size-6" />
+            <a href="mailto:soumyajitdey19@gmail.com" className="font-semibold">
+              soumyajitdey19@gmail.com
+            </a>
+          </li>
+          <li className="flex m-2 sm:m-3 items-center">
+            <CiGlobe className="mx-2 sm:mx-3 my-1 size-6" />
+            <a
+              href="http://soumyajit.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold"
+            >
+              soumyajit.dev
+            </a>
+          </li>
+          <li className="flex m-2 sm:m-3 items-center">
+            <BsGenderMale className="mx-2 sm:mx-3 my-1 size-6" />
+            <span className="font-semibold">he/him</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
