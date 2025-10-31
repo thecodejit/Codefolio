@@ -18,7 +18,7 @@ const Social = () => {
             <div className="flex items-center gap-3">
               <img
                 src={linkedin}
-                alt=""
+                alt="LinkedIn"
                 className="h-16 w-16 p-1 rounded-2xl"
               />
               <h1 className="">
@@ -26,7 +26,7 @@ const Social = () => {
                 soumyajit
               </h1>
             </div>
-            <MdArrowOutward />
+            <MdArrowOutward className="mr-2" />
           </a>
 
           <a
@@ -35,14 +35,18 @@ const Social = () => {
             className="flex justify-between items-center border-y sm:border border-gray-200"
           >
             <div className="flex items-center gap-3">
-              <img src={github} alt="" className="h-16 w-16 p-1 rounded-2xl" />
+              <img
+                src={github}
+                alt="Github"
+                className="h-16 w-16 p-1 rounded-2xl"
+              />
               <h1>
                 <span className="font-bold">Github</span>
                 <br />
                 thecodejit
               </h1>
             </div>
-            <MdArrowOutward className="ml-1/2" />
+            <MdArrowOutward className="mr-2" />
           </a>
 
           <a
@@ -51,14 +55,18 @@ const Social = () => {
             className="flex justify-between items-center border-y sm:border border-gray-200"
           >
             <div className="flex items-center gap-3">
-              <img src={twitter} alt="" className="h-16 w-16 p-1 rounded-2xl" />
+              <img
+                src={twitter}
+                alt="X (Previously twitter)"
+                className="h-16 w-16 p-1 rounded-2xl"
+              />
               <h1>
                 <span className="font-bold">X</span>
                 <br />
                 thecodejit
               </h1>
             </div>
-            <MdArrowOutward className="ml-1/2" />
+            <MdArrowOutward className="mr-2" />
           </a>
 
           <a
@@ -67,14 +75,18 @@ const Social = () => {
             className="flex justify-between items-center border-y sm:border border-gray-200"
           >
             <div className="flex items-center gap-3">
-              <img src={dev} alt="" className="h-16 w-16 p-1 rounded-2xl" />
+              <img
+                src={dev}
+                alt="dev.to"
+                className="h-16 w-16 p-1 rounded-2xl"
+              />
               <h1>
                 <span className="font-bold">Dev.to</span>
                 <br />
                 thecodejit
               </h1>
             </div>
-            <MdArrowOutward className="p-" />
+            <MdArrowOutward className="mr-2" />
           </a>
         </div>
       </div>
