@@ -41,18 +41,18 @@ const Header = () => {
         <ul>
           <li className="flex m-2 sm:m-3 items-center">
             <IoCodeSlashOutline className="mx-2 sm:mx-3 my-1 size-6" />
-            <span className="font-semibold">Full Stack Developer</span>
+            <span className="font-medium">Full Stack Developer</span>
           </li>
           <li className="flex m-2 sm:m-3 items-center">
             <IoLocationOutline className="mx-2 sm:mx-3 my-1 size-6" />
 
-            <span className="font-semibold">
-              Chinsurah-Hooghly, West-Bengal, India
+            <span className="font-medium">
+              Chinsurah-Hooghly, West Bengal, India
             </span>
           </li>
           <li className="flex m-2 sm:m-3 items-center">
             <IoMailOutline className="mx-2 sm:mx-3 mt-1 size-6" />
-            <a href="mailto:soumyajitdey19@gmail.com" className="font-semibold">
+            <a href="mailto:soumyajitdey19@gmail.com" className="font-medium">
               soumyajitdey19@gmail.com
             </a>
           </li>
@@ -62,14 +62,14 @@ const Header = () => {
               href="http://soumyajit.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold"
+              className="font-medium"
             >
               soumyajit.dev
             </a>
           </li>
           <li className="flex m-2 sm:m-3 items-center">
             <BsGenderMale className="mx-2 sm:mx-3 my-1 size-6" />
-            <span className="font-semibold">he/him</span>
+            <span className="font-medium">he/him</span>
           </li>
         </ul>
       </div>
