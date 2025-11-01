@@ -31,9 +31,9 @@ const Accordion = ({ title, image }) => {
           <IoIosLink />
         </a>
         {open ? (
-          <MdOutlineKeyboardDoubleArrowUp className="mx-2 my-4 size-6" />
+          <MdOutlineKeyboardDoubleArrowUp className="mx-2 my-5 size-5" />
         ) : (
-          <MdOutlineKeyboardDoubleArrowDown className="mx-2 my-4 size-6" />
+          <MdOutlineKeyboardDoubleArrowDown className="mx-2 my-5 size-5" />
         )}
       </div>
 
@@ -42,7 +42,7 @@ const Accordion = ({ title, image }) => {
           open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
         }`}
       >
-        <div className="overflow-hidden mx-8 my-4">
+        <div className="overflow-hidden mx-8 my-2">
           <span className="font-semibold">Features</span>
           <ul className="list-inside list-disc">
             <li className="text-gray-300">
